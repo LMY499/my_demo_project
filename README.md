@@ -33,7 +33,7 @@ Python + requests + pytest + yaml + allure + logging + jenkins + git + Charles
     - 用例覆盖正常流程、异常场景、边界条件，保障功能完整性与稳定性。
 
 ## 环境搭建与运行
-### 1. 启动被测服务（flaskServer）
+### 启动被测服务（flaskServer）
 ```bash
 cd flaskServer
 pip install -r requirements.txt
